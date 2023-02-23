@@ -1,0 +1,11 @@
+
+.secondblock{
+    margin-left:50px; 
+    display:inline-block;
+    margin-right:100px;
+    vertical-align:top; 
+    /* vertical-align: top makes things start from the top not from the end row of the last block */
+    /* align-items: center; */
+    /* justify-content: center; */
+  
+  }
