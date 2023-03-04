@@ -1,5 +1,5 @@
 import "./MainPage.css";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import FirstBlock from "./FirstBlock";
 import SecondBlock from "./SecondBlock";
 import ThirdBlock from "./ThirdBlock";
@@ -16,16 +16,18 @@ function MainPage() {
 
   const chat = "chat";
 
-  const [result, setResult] = useState(0);
-  const clickHandler = () => {
-    setResult("Updated");
-    console.log(result);
-  };
+  // const [result, setResult] = useState("default");
 
-  const scheduleButton = () => {
-    setResult("Updated");
-    console.log(result);
-  };
+  // const clickHandler = () => {
+  //   setResult("clicked");
+  //   console.log(result);
+  //   // console.log(result);
+  // };
+
+  // const scheduleButton = () => {
+  //   setResult("changed");
+  //   // console.log(result);
+  // };
 
   return (
     <div>
@@ -36,6 +38,10 @@ function MainPage() {
           todolist={todolist}
           schedule={schedule}
           practice={practice}
+          // result={result}
+          // clickHere="clickHere"
+          // clickHandler={clickHandler}
+          // scheduleButton={scheduleButton}
         />
       </div>
 

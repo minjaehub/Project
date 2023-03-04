@@ -1,9 +1,11 @@
-import MainPage from "./components/MainPage";
+// import MainPage from "./components/MainPage";
+import Homepage from "./components2/Homepage";
 
 function App() {
   return (
     <div>
-      <MainPage />;
+      {/* <MainPage />; */}
+      <Homepage />
     </div>
   );
 }

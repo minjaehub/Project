@@ -1,0 +1,79 @@
+.login-form-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #524C8E;
+ }
+ .marginbottom-form{
+   margin-bottom:0;
+ }
+ .McAddy{
+    color:white;
+    text-align:center;
+    font-size:3em;
+    margin-bottom:10px;
+ }
+  .login-form {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   padding: 40px;
+   max-width: 400px;
+   width: 100%;
+ }
+  .login-form h2 {
+   font-size: 24px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+  .form-group {
+   margin-bottom: 20px;
+ }
+  .form-control {
+   border-radius: 10px;
+   padding: 10px 20px;
+   padding-right: 200px;
+   font-size: 16px;
+  
+ }
+  .btn-primary {
+   background-color: #1e619f;
+   border: none;
+   border-radius: 25px;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 10px 0;
+   width: 50%;
+   margin-left:100px;
+ }
+  .btn-primary:hover {
+   background-color: #054e83;
+ }
+  .clearfix::before,
+ .clearfix::after {
+   content: "";
+   display: table;
+ }
+  .clearfix:after {
+   clear: both;
+ }
+  .float-left {
+   float: left;
+ }
+  .float-right {
+   float: right;
+ }
+  .form-check-label input[type=checkbox] {
+   margin-right: 5px;
+ }
+
+
+ .white-text {
+   color: white;
+ }
+ html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }

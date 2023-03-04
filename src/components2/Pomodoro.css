@@ -1,0 +1,151 @@
+
+  .McAddy-pomodoro{
+    display:block;
+    margin-top:0px;
+    padding-left:10px;
+    padding-bottom:15px;
+    padding-top:10px;
+    color:white;
+    background-color:rgb(181, 181, 229);
+    text-align:left;
+    font-size:2em;
+    margin-bottom:3px;
+ }
+ .parent{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+ }
+
+/* all icons children need these features: */
+ .icons> * {
+    display: block;
+    margin-left:10px;
+    margin-bottom: 40px;
+    background-color: rgb(181, 181, 229);
+    border:none;
+    color:rgb(67, 61, 61);
+  }
+  .icons>:hover{
+    cursor:pointer;
+    opacity:0.5;
+  }
+  .exitButton{
+    margin-top:220px;
+  }
+ 
+ .left-block {
+    margin-right:0px;
+    /* position:absolute; */
+    background-color:rgb(181, 181, 229);
+    /* width: 100%; */
+    width:70px;
+    
+    /* height: 100%; */
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .middle-block{
+    
+    /* display:inline-block; */
+    /* margin-left:200px; */
+    margin-right:50px;
+    max-width:600px;
+    margin-top:30px;
+    flex:1;
+    /* justify-content:center; */
+    
+  }
+  .right-block{
+    /* position:absolute; */
+    display:inline-block;
+    background-color:rgb(181, 181, 229);
+    width:150px;
+    /* width:100%; */
+    /* height:100%; */
+    vertical-align:top;
+    margin-right:0px;
+
+  }
+  .container{
+  }
+  
+  .header {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 700px;
+    margin-bottom:0px;
+    
+  }
+  
+  .outer-time-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    width:700px;
+    border:1px;
+    border-color:yellow;
+    background-color:rgb(210, 204, 204);
+  }
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    /* width:100%; */
+    width: 500px;
+    border: 0.5px solid black;
+    
+    background-color: white;
+  }
+  
+  .timer {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .timer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .button-mode {
+    margin-bottom:0px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+    /* border: 1px solid black; */
+    background-color: rgb(210, 204, 204);
+  }
+  .button-mode:hover{
+    cursor:pointer;
+    opacity:0.7;
+  }
+  .button-function {
+    
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(201, 193, 193);
+    font-size:20px;
+    color: black;
+    cursor: pointer;
+    border-radius:2px;
+    /* transition: opacity 0.8s; */
+  }
+  
+  .button-function:hover {
+    opacity:0.7;
+  }
+  .button-function:active{
+    opacity:0.9;
+  }

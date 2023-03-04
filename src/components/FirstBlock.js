@@ -1,6 +1,15 @@
 import "./FirstBlock.css";
+import React, { useState } from "react";
+const FirstBlock = (props) => {
+  const [pomodoro, setPomodoro] = useState(props.pomodoro);
 
-function FirstBlock(props) {
+  const clickHandler = () => {
+    setPomodoro("clicked");
+  };
+
+  const scheduleButton = () => {
+    setPomodoro("changed");
+  };
   return (
     // why is firstblock not inblock? I did it on FirstBlock.css
     <div className="firstblock">
@@ -9,24 +18,26 @@ function FirstBlock(props) {
       </div>
 
       <div className="pomodoro">
-        <h1> {props.pomodoro}</h1>
+        {/* It's not props.pomodoro here but idk why */}
+        <h1> {pomodoro}</h1>
       </div>
 
       <div className="todolist">
         <h1> {props.todolist}</h1>
       </div>
       <div className="schedule">
-        <button className="scheduleButton" onClick={props.scheduleButton}>
+        <button className="scheduleButton" onClick={scheduleButton}>
           {props.schedule}
         </button>
       </div>
-
-      <button onClick={props.clickHandler}>Click here</button>
+      <div>
+        <button onClick={clickHandler}>Click here</button>
+      </div>
 
       <div className="practice">
         <h1>{props.practice}</h1>
       </div>
     </div>
   );
-}
+};
 export default FirstBlock;
