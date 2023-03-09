@@ -21,7 +21,7 @@
  .icons> * {
     display: block;
     margin-left:10px;
-    margin-bottom: 40px;
+    margin-top: 40px;
     background-color: rgb(181, 181, 229);
     border:none;
     color:rgb(67, 61, 61);
@@ -31,43 +31,40 @@
     opacity:0.5;
   }
   .exitButton{
-    margin-top:220px;
+    margin-top:320px;
   }
  
  .left-block {
     margin-right:0px;
     /* position:absolute; */
     background-color:rgb(181, 181, 229);
-    /* width: 100%; */
-    width:70px;
     
-    /* height: 100%; */
+    width:70px;
+    /* there's a white space at the bottom if width:700px */
+    height: 750px;
     display: inline-block;
     vertical-align: top;
   }
   
   .middle-block{
-    
     /* display:inline-block; */
-    /* margin-left:200px; */
-    margin-right:50px;
-    max-width:600px;
-    margin-top:30px;
+    /* margin-right:0px; */
+    max-width:700px;
+    margin-top:40px;
     flex:1;
-    /* justify-content:center; */
-    
   }
   .right-block{
     /* position:absolute; */
     display:inline-block;
     background-color:rgb(181, 181, 229);
-    width:150px;
+    width:250px;
     /* width:100%; */
     /* height:100%; */
     vertical-align:top;
     margin-right:0px;
 
   }
+
   .container{
   }
   
@@ -76,7 +73,6 @@
     /* justify-content: space-between; */
     width: 700px;
     margin-bottom:0px;
-    
   }
   
   .outer-time-container{
@@ -86,7 +82,6 @@
     height:500px;
     width:700px;
     border:1px;
-    border-color:yellow;
     background-color:rgb(210, 204, 204);
   }
   .timer-container {

@@ -1,0 +1,77 @@
+.middle-block-todolist{
+    /* display:inline-block; */
+    /* margin-right:0px; */
+    
+    margin-top:40px;
+    flex:1;
+    /* max-width 설정안해놓으면 block 다채워버림 */
+    max-width:900px;
+    
+  }  
+
+
+
+
+.bigcontainer{
+    
+    display:flex;
+    /* flex-direction:row; */
+    justify-content:space-between;
+    
+    
+}
+.smallcontainer{
+    border-style:solid;
+    border-color:gray;
+    height:600px;
+    width:250px;
+    /* flex:1; */
+    
+    background-color:white;
+    border-color:black;
+}
+.container-todolist{
+    border-style:solid;
+    border-color:gray;
+    height:50px;
+    width:250px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color:white;
+    border-color:gray;
+    font-size:20px;
+    background-color:rgb(153, 153, 193);
+
+    /* padding-left:10px; */
+    display:flex;
+    align-items:center;
+    justify-content:start;
+    
+}
+.taskname{
+    padding-top:10px;
+    padding-left:10px;
+}
+.checkbox{
+    background-color:white;
+    border:none;
+    margin-left:130px;
+}
+.checkbox:hover{
+    cursor:pointer;
+}
+
+.taskContainer {
+    margin-top: 470px;
+  }
+   .taskBox {
+    border-radius: 20px;
+    padding: 10px 60px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-color:gray;
+    /* text-align:left; */
+    /* justify-content:start; */
+    
+  }

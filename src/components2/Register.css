@@ -34,20 +34,16 @@
   
   .form-group {
     margin-bottom: 20px;
-    
   }
-
   
   .form-control {
     border-radius: 10px;
     padding: 10px 20px;
     padding-right: 200px;
     font-size: 16px;
-    
   }
   
   .btn-primary {
-    
     background-color: #1e619f;
     border: none;
     border-radius: 25px;
